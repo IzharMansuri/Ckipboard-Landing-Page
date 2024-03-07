@@ -1,0 +1,108 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+header{
+    background-image: url('./images/bg-header-desktop.png');
+    background-blend-mode: lighten;
+}
+.jamjuree{
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.grey{
+    color: hsl(210, 10%, 33%)
+}
+.primary{
+    background-color: #26BBA5;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.primary:hover{
+    border: 1px solid #26BBA5;
+    cursor: pointer;
+}
+.secondary{
+    background-color: #6075FF;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.secondary:hover{
+    border: 1px solid #6075FF;
+    cursor: pointer;
+}
+.computer{
+    position: relative;
+    left: -20%;
+}
+.light-grey{
+    background-color: #F5F6F8;
+}
+.links:hover{
+    color: #26BBA5 !important;
+}
+.fb{
+    width: 40px;
+    height: 40px;
+    filter: grayscale(1);
+}
+.fb:hover{
+    filter: grayscale(0);
+    cursor: pointer;;
+}
+.ig{
+    width: 40px;
+    height: 40px;
+    filter: grayscale(1);
+}
+.ig:hover{
+    filter: grayscale(0);
+    cursor: pointer;;
+}
+.banner{
+    width: 50px;
+}
+.twt{
+    width: 40px;
+    height: 40px;
+    filter: grayscale(1);
+}
+.twt:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 400px){
+    header{
+        background-image: url('./images/bg-header-mobile.png');
+        background-blend-mode: lighten;
+    }
+    .fb{
+        width: 25px;
+        height: 25px;
+    }
+    .ig{
+        width: 25px;
+        height: 25px;
+    }
+    .twt{
+        width: 25px;
+        height: 25px;
+    }
+    .display{
+        width: 120px;
+    }
+    .computer{
+        position: relative;
+        left: 0%;
+    }
+}
+@media only screen and (max-width: 780px){
+    .computer{
+        position: relative;
+        left: 0%;
+    }
+}
